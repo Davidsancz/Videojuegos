@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Blaka&display=swap');
+body{
+  background-color: palegreen;
+  margin: 0;
+  padding: 0;
+}
+
+h1{
+  font-family:Blaka;
+  text-align: center;
+  padding: 20px;
+}
+
+hr{
+  border: 1px dotted blue ;
+
+}
+
+
+
+ul{
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+
+}
+
+ul > li{
+  margin-left: 60px;
+}
+
+ul > li > a{
+  text-decoration: none;
+  color: blanchedalmond;
+}
+
+.columna {
+    float: left;
+    width: 50%;
+    padding-right: 5px;
+  }
+  
+  .fila::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  .mss{
+
+    width: 100%;
+    height: auto;
+}
+
+.margin{
+  margin-right: 15px;
+}
